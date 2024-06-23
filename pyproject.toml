@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "agent-reflection"
+version = "1.0.0"
+description = ""
+authors = ["jggomez <juan.gomez01@gmail.com>"]
+readme = "README.md"
+packages = [{include = "translation_agent_reflection"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.7.1"
+python-dotenv = "^1.0.1"
+langchain-google-vertexai = "^1.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
